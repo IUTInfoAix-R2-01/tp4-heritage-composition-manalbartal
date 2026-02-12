@@ -62,8 +62,9 @@ public class Velo {
 	     
 	     System.out.println("diametre de la roue:" + v1.getDiameRoue());
 	      // Test getArea() and getPerimeter()
-	      System.out.printf("frequence coups de pedale: %.2f%n", v1.getPuissance(13.0));		 
-	 }
+	     System.out.println("frequence coups de pedale: %.2f%n", v1.getPuissance(13.0));	
+	     System.out.println("genALea", v1.getGenAlea());
+	 }	
 	
 	 
 }
